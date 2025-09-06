@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: min-content;
 }
 
 header {
@@ -485,3 +486,145 @@ main {
         text-decoration: line-through;
     }
 }
+
+.nota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    img{
+        width: 5.6rem;
+    }
+    h1{
+        font-size: 6rem;
+        font-weight: 700;
+    }
+    
+}
+
+.avaliacoes-top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+
+    h3{
+        font-size: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+        width: 25rem;
+        text-align: center;
+        color: #6A6A6A;
+    }
+}
+
+.avaliacao-detalhes{
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 4.6rem;
+    margin-bottom: 2.6rem;
+    p{
+        width: 7.2rem; 
+        font-weight: 600;
+    }
+    
+    .titulo-detalhe{
+        margin-bottom: 0.4rem;
+    }
+
+    .avaliacao-detalhe{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+
+    .nota-numero{
+        font-size: 1.2rem;
+        
+        
+    }
+}
+
+.vertical-divider{
+    width: 1px;
+    height: 6.4rem;
+    background-color: rgb(221, 221, 221);
+}
+
+.avaliacoes-usuarios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.avaliacao-usuario{
+    .detalhes-avaliacao-usuario{
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+        .bullet{
+            font-size: 0.5rem;
+            color: #6A6A6A;
+        }
+
+        p{
+            font-size: 0.93rem;
+        }
+
+        .data-avaliacao{
+            font-weight: 600;
+        }
+
+        .tempo-estadia{
+            color: #6A6A6A;
+        }
+    }
+
+    .informacao-usuario{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .estrelas{
+        display: flex;
+        gap: 1px;
+    }
+
+    img{
+        border-radius: 50%;
+        width: 3.4rem;
+    }
+
+    h5{
+        font-weight: 700;
+        font-size: 1.05rem;
+        margin-bottom: 0.3rem;
+    }
+
+    p{
+        font-size: 0.96rem;
+        max-width: 30rem;
+    }
+
+    .comentario-avaliacao{
+        font-size: 1.05rem;
+        margin: 0.6rem 0;
+        line-height: 1.5rem;
+    }
+
+    a{
+        color: black;
+        font-weight: 700;
+        font-size: 1.05rem;
+    }
+
+}
+
