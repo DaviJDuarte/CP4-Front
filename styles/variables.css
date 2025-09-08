@@ -1,3 +1,8 @@
 :root {
     --color-primary: #ff385c;
+    --color-secondary: #6A6A6A;
+    --light-gray: #DDDDDD;
+
+    --font-size-medium: 1.05rem;
+    --font-size-smaller: 0.96rem;
 }
