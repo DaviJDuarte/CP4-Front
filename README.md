@@ -1,2 +1,8 @@
-# CP4-Front
-https://www.airbnb.com.br/rooms/545438079913804093?source_impression_id=p3_1757181574_P358-j8Kao-sBeDD&check_in=2025-09-11&guests=1&adults=1&check_out=2025-09-12
+# CP4 - Front End Design
+- [Davi de Jesus Duarte](https://github.com/DaviJDuarte)
+- [Leonardo Lopes Pereira](https://github.com/LeonardoL-Bah)
+- [Matheus Brasil Borges Sevilha Angelotti](https://github.com/MathBra17)
+
+Link acomodação no Airbnb: https://www.airbnb.com.br/rooms/545438079913804093?source_impression_id=p3_1757181574_P358-j8Kao-sBeDD&check_in=2025-09-11&guests=1&adults=1&check_out=2025-09-12
+
+GitHub Pages: 
